@@ -8,7 +8,7 @@ import { Home } from './components/home'
 function App() {
   let [count, setCount] = useState(0)
 
-  const handleview = (e)=>{
+  const handleView = (e)=>{
    
     setCount(count + 1)
     console.log(count)
@@ -16,7 +16,7 @@ function App() {
   return (
     
     <>
-      <button onClick={handleview}>
+      <button onClick={handleView}>
         {count}
       </button>
     {
